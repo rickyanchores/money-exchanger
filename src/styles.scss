@@ -1,0 +1,31 @@
+body {
+  font-family: monospace;
+  background: black;
+  color: whitesmoke;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+
+.app{
+  background: #333;
+  padding: 1em;
+  .container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    input{
+      margin: 1em;
+    }
+    .btn{
+      border: none;
+      padding: 1em;
+      color: whitesmoke;
+      background: coral;
+      cursor: pointer;
+    }
+  }
+}
