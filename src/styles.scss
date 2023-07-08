@@ -12,6 +12,7 @@ body {
 .app{
   background: #333;
   padding: 1em;
+  border-radius: 1em;
   .container{
     display: flex;
     flex-wrap: wrap;
@@ -19,6 +20,9 @@ body {
     align-items: center;
     input{
       margin: 1em;
+      border: none;
+      border-radius: 1em;
+      text-align: center;
     }
     .btn{
       border: none;
@@ -26,6 +30,10 @@ body {
       color: whitesmoke;
       background: coral;
       cursor: pointer;
+    }
+    .result{
+      padding: 1em;
+      font-size: 3em;
     }
   }
 }

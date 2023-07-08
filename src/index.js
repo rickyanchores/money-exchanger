@@ -33,7 +33,8 @@ const renderData = async () => {
   const initialCurrency = initialInput.value; // Get the initial currency value from the input field
   const finalCurrency = final.value; // Get the final currency value from the input field
   const data = await fetchData(initialCurrency, finalCurrency);
-  let content = `<h1>${data} ${finalCurrency}</h1>`;
+  let content = `
+                  <h1>${data} ${finalCurrency}</h1>`;
   result.innerHTML = content;
 };
 

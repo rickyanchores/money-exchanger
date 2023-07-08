@@ -1,0 +1,38 @@
+body {
+  font-family: monospace;
+  background: black;
+  color: whitesmoke;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.app {
+  background: #333;
+  padding: 1em;
+  border-radius: 1em;
+}
+.app .container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+.app .container input {
+  margin: 1em;
+  border: none;
+  border-radius: 1em;
+  text-align: center;
+}
+.app .container .btn {
+  border: none;
+  padding: 1em;
+  color: whitesmoke;
+  background: coral;
+  cursor: pointer;
+}
+.app .container .result {
+  padding: 1em;
+  font-size: 3em;
+}/*# sourceMappingURL=styles.css.map */
